@@ -5,13 +5,58 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Styleguide - v1.0.0</title>
+		<style>
+			:root {
+				--color-primary: #6EDB92;
+				--border-radius: 8px;
+				--card-padding: 24px;
+				--card-background: #fff;
+				--btn-border-radius: 6px;
+				--btn-padding: 8px 24px;
+			}
+
+			*, *::before, *::after {
+				box-sizing: border-box;
+			}
+
+			body {
+				margin: 0;
+				min-height: 100vh;
+				background: #c3c3c3;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.card {
+				padding: var(--card-padding);
+				background: var(--card-background);
+				border-radius: var(--border-radius);
+				width: 450px;
+			}
+
+			.btn {
+				padding: var(--btn-padding);
+				border: 0;
+				border-radius: var(--btn-border-radius);
+				color: #fff;
+			}
+
+			.btn-primary {
+				background: var(--color-primary);
+			}
+		</style>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="card">
+			<!-- TODO:
+				+ inputs
+				+ link: forget password
+			-->
+			<div>TODO</div>
+			<button class="btn btn-primary">Button</button>
+		</div>
 	</body>
 </html>
