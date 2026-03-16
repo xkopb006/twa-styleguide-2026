@@ -18,14 +18,13 @@ Co se stane:
 - Lokální soubory jsou propojené — změny v editoru se projeví okamžitě
 
 Přístup v prohlížeči:
-- Windows / WSL2: http://192.168.155.2:4321/
-- Mac / Linux: http://localhost:4321/
+- http://localhost:4321/twa-styleguide-2026/
 
 ---
 
-## 2) Vstup do kontejneru (pro npm příkazy)
+## 2) Ruční vstup do kontejneru (volitelné)
 
-Otevři nový terminál a spusť:
+Pokud potřebuješ spustit npm příkaz (např. instalace balíčku), otevři nový terminál a spusť:
 
 ```bash
 docker compose exec dev sh
@@ -46,11 +45,11 @@ exit                     # opuštění kontejneru
 
 ## 3) Zastavení
 
+Ctrl+C v terminálu kde běží `docker compose up dev`, nebo:
+
 ```bash
 docker compose down
 ```
-
-nebo Ctrl+C v terminálu kde běží `docker compose up dev`.
 
 ---
 
