@@ -1,4 +1,6 @@
-# Cvičení 6 — Astro
+# Cvičení 6 — Styleguide
+
+## Styleguide, který se používá jako submodule (git v gitu)
 
 Minimální Astro projekt. Pracujeme z Docker kontejneru — není potřeba mít Node.js nainstalovaný lokálně.
 
