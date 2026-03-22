@@ -2,7 +2,8 @@
   padding: var(--card-padding);
   background: var(--card-background);
   border-radius: var(--border-radius);
-  width: 450px;
+  box-shadow: var(--card-shadow);
+  width: 45rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -13,6 +14,7 @@
   border-radius: var(--btn-border-radius);
   color: #fff;
   cursor: pointer;
+  font-size: 1.6rem;
 }
 
 .btn-primary {
@@ -21,9 +23,9 @@
 
 .input {
   padding: var(--input-padding);
-  border: 1px solid var(--input-border-color);
+  border: 0.1rem solid var(--input-border-color);
   border-radius: var(--input-border-radius);
-  font-size: 1rem;
+  font-size: 1.6rem;
   outline: none;
   width: 100%;
   box-sizing: border-box;
@@ -31,4 +33,47 @@
 
 .input:focus {
   border-color: var(--input-border-color-focus);
+}
+
+.login-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-background);
+}
+
+.login-box {
+  width: 100%;
+  max-width: 40rem;
+}
+
+.login-box h1 {
+  margin: 0 0 2.4rem;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1.6rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.6rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.forgot {
+  display: block;
+  text-align: right;
+  font-size: 1.4rem;
+  color: var(--color-primary);
+  margin-top: 0.4rem;
+}
+
+.btn-block {
+  width: 100%;
+  margin-top: 2.4rem;
 }
