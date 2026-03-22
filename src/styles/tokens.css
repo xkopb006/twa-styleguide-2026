@@ -16,4 +16,8 @@
   --input-padding: 0.8rem 1.2rem;
   --input-border-color: #ccc;
   --input-border-color-focus: var(--color-primary);
+
+  --grid-columns: 12;
+  --grid-gap: 2.4rem;
+  --grid-max-width: 120rem;
 }
