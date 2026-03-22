@@ -1,4 +1,6 @@
 :root {
+  --font-family: 'Inter', sans-serif;
+
   --color-primary: #6EDB92;
 
   --border-radius: 8px;
