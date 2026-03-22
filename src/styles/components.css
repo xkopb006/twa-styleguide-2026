@@ -2,6 +2,7 @@
   padding: var(--card-padding);
   background: var(--card-background);
   border-radius: var(--border-radius);
+  border: 0.1rem solid var(--card-border-color);
   box-shadow: var(--card-shadow);
   width: 45rem;
   margin-left: auto;
