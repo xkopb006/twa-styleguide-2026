@@ -6,14 +6,38 @@
 
 body {
   margin: 0;
-  background: #ddd;
+  font-family: var(--font-family);
 }
 
 /* Component previews */
 
 .component-item {
-  background-color: #b2b2b2;
+  background-color: #e7e7e7;
   border-radius: 30px;
   padding: 25px;
   margin-bottom: 20px;
+}
+
+.component-item code {
+  display: block;
+  font-family: monospace;
+  color: #f72c2c;
+  background: #fff;
+  border-radius: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.component-item pre {
+  margin-top: 3rem;
+  font-size: 0;
+}
+
+
+.grid-col-demo {
+  background-color: #6def6d;
+  padding: 20px;
+  border-radius: 0.4rem;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
