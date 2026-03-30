@@ -1,4 +1,4 @@
-# Cvičení 6 — twa-styleguide-2026
+# twa-styleguide-2026
 
 ## Styleguide, který se používá jako submodule (git v gitu)
 
